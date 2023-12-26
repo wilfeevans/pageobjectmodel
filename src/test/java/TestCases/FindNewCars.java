@@ -12,6 +12,7 @@ import Utilities.ExcelUtil;
 
 public class FindNewCars extends BaseTest
 {
+	// Testing page object model
 	@Test(dataProviderClass = ExcelUtil.class, dataProvider = "dp")
 	public void newCar(String browser) throws ClassNotFoundException, IOException, SQLException
 	{
