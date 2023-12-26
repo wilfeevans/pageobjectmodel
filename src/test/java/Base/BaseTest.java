@@ -22,7 +22,7 @@ import Utilities.MonitoringMail;
 
 public class BaseTest
 {
-	//Base file
+	
 	public static WebDriver driver;
 	public Properties OR=new Properties();
 	public Properties config=new Properties();
