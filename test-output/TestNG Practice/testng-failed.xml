@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNG Practice]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Find New Car Test(failed)">
+    <classes>
+      <class name="TestCases.FindNewCars">
+        <methods>
+          <include name="newCar"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCases.FindNewCars -->
+    </classes>
+  </test> <!-- Find New Car Test(failed) -->
+</suite> <!-- Failed suite [TestNG Practice] -->

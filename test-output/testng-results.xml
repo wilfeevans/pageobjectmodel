@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-07T08:40:11Z" name="TestNG Practice" finished-at="2023-12-07T08:40:26Z" duration-ms="15461">
+    <groups>
+    </groups>
+    <test started-at="2023-12-07T08:40:11Z" name="Find New Car Test" finished-at="2023-12-07T08:40:26Z" duration-ms="15461">
+      <class name="TestCases.FindNewCars">
+        <test-method signature="newCar(java.lang.String)[pri:0, instance:TestCases.FindNewCars@5d8445d7]" started-at="2023-12-07T08:40:11Z" name="newCar" data-provider="dp" finished-at="2023-12-07T08:40:18Z" duration-ms="6842" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newCar -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.FindNewCars@5d8445d7]" started-at="2023-12-07T08:40:18Z" name="tearDown" finished-at="2023-12-07T08:40:18Z" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="newCar(java.lang.String)[pri:0, instance:TestCases.FindNewCars@5d8445d7]" started-at="2023-12-07T08:40:18Z" name="newCar" data-provider="dp" finished-at="2023-12-07T08:40:25Z" duration-ms="6995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newCar -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.FindNewCars@5d8445d7]" started-at="2023-12-07T08:40:25Z" name="tearDown" finished-at="2023-12-07T08:40:26Z" duration-ms="1179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.FindNewCars -->
+    </test> <!-- Find New Car Test -->
+  </suite> <!-- TestNG Practice -->
+</testng-results>
